@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Laptop",
+    "price": 180000,
+    "brand": "Dell",
+    "category": "Electronics",
+    "stock": 15,
+    "warranty_months": 24,
+    "available": true
+    },
+    {
+    "name": "Smartphone",
+    "price": 95000,
+    "brand": "Samsung",
+    "category": "Electronics",
+    "stock": 30,
+    "warranty_months": 12,
+    "available": true
+    },
+    {
+    "name": "Office Chair",
+    "price": 45000,
+    "brand": "ErgoTech",
+    "category": "Furniture",
+    "stock": 10,
+    "warranty_months": 18,
+    "available": true
+    },
+    {
+    "name": "Bluetooth Speaker",
+    "price": 32000,
+    "brand": "JBL",
+    "category": "Audio",
+    "stock": 25,
+    "warranty_months": 6,
+    "available": true
+    },
+    {
+    "name": "Coffee Maker",
+    "price": 28000,
+    "brand": "Oster",
+    "category": "Appliances",
+    "stock": 8,
+    "warranty_months": 12,
+    "available": false
+    }
+]
