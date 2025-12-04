@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD Empleados</title>
+</head>
+<body>
+    <h1>Lista de Empleados</h1>
+    <button onclick="cargarDatos()">Cargar</button>
+    <pre id="resultado"></pre>
+
+    <script>
+        function cargarDatos() {
+            fetch("http://localhost:3000/empleados")
+                .then(res => res.json())
+                .then(data => {
+                    document.getElementById("resultado").textContent =
+                        JSON.stringify(data, null, 2);
+                });
+        }
+    </script>
+</body>
+</html>
